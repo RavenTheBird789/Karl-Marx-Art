@@ -1,11 +1,11 @@
 # Python marx_quote_art.py
 
 def red(text: str) -> str:
-    # Wrap text in ANSI red."""
+    # Wrap text in ANSI red
     return f"\033[91m{text}\033[0m"
 
 def bold(text: str) -> str:
-    # Wrap text in ANSI bold."""
+    # Wrap text in ANSI bold
     return f"\033[1m{text}\033[0m"
 
 def main():
